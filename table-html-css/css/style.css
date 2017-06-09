@@ -1,0 +1,49 @@
+body {
+    background-color: #f9f9f9;
+    color: #606060;
+}
+
+a:link, a:visited, a:active, a:hover {
+    text-decoration: none;
+    color: #606060;
+}
+
+.full-table {
+    width: 80%;
+    margin: 2% 10% 2% 10%;
+    border-spacing: 0;
+    border: 1px solid #cbcbcb;
+}
+
+.full-table thead {
+    background-color: #606060;
+    color: #fff;
+    text-align: left;
+}
+
+.full-table td, th {
+    padding: 0.8% 2.5%;
+}
+
+.full-table-line-color td {
+    background-color: #f2f2f2;
+}
+
+.full-table td > a > img {
+    width: 20%;
+    padding-right: 3%;
+    vertical-align: middle;
+}
+
+.full-table-inline td, th {
+    border-width: 0 0 1px 0;
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.full-table-inline tr:hover td {
+    background: #D9Cf8F;
+}
+
+.center-text {
+    text-align: center;
+}
